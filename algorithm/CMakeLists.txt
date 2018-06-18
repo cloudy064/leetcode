@@ -21,3 +21,6 @@ target_link_libraries(004.find_median_sorted_arrays gtest)
 
 add_executable(005.longest_palindrome 005.longest_palindrome.cpp)
 target_link_libraries(005.longest_palindrome gtest)
+
+add_executable(006.convert 006.convert.cpp)
+target_link_libraries(006.convert gtest)

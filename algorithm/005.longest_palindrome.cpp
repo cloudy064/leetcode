@@ -10,6 +10,7 @@ using namespace std;
 
 class Solution {
 public:
+    // Manacher algorithm
     string longestPalindrome(string s) {
         int length = s.length();
         string pretreatment(2 * length + 1, '#');

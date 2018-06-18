@@ -24,3 +24,6 @@ target_link_libraries(005.longest_palindrome gtest)
 
 add_executable(006.convert 006.convert.cpp)
 target_link_libraries(006.convert gtest)
+
+add_executable(007.reverse 007.reverse.cpp)
+target_link_libraries(007.reverse gtest)

@@ -11,21 +11,25 @@ using namespace std;
 
 class Solution {
 public:
+    // The question has declared that the range of the number is [-2^31, 2^31-1]
     int reverse(int num) {
-        auto lnum = static_cast<long>(num);
-        auto int_max = static_cast<long>(pow(2, 31));
-        auto int_min = static_cast<long>(pow(2 ,31) - 1);
-        long positive = abs(lnum);
-        long res = 0;
-        while (positive != 0) {
-            long mod = positive % 10;
-            res = res * 10 + mod;
-            if (res > pow(2, 31) -1 && num > 0) return 0;
-            if (res > pow(2, 31) && num < 0) return 0;
-            positive /= 10;
+        int res = 0;
+        int max_before = INT_MAX / 10;
+        int min_before = INT_MIN / 10;
+
+        while (num != 0) {
+            int mod = num % 10;
+
+            if ((res > max_before)
+                    || (res < min_before)
+                    || (res == max_before && mod > 7)
+                    || (res == min_before && mod < -8)) return 0;
+
+            res = 10 * res + mod;
+            num /= 10;
         }
 
-        return static_cast<int>((num < 0) ? -res : res);
+        return res;
     }
 };
 

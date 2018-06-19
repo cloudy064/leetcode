@@ -5,25 +5,22 @@
 #include <iostream>
 #include <vector>
 
-#include "gtest/gtest.h"
+#include "common.h"
 
 using namespace std;
 
 class Solution {
 public:
-    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        return 0;
-    }
+	double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+		return 0;
+	}
 };
 
 
-class TestSolution : public ::testing::Test {
+class Test004Solution : public ::testing::Test {
 public:
-    Solution sln;
+	Solution sln;
 };
 
 
-GTEST_API_ int main(int argc, char *argv[]) {
-    testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
+GTEST_MAIN

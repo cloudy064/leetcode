@@ -43,6 +43,7 @@
     <ClCompile Include="algorithm\005.longest_palindrome.cpp" />
     <ClCompile Include="algorithm\006.convert.cpp" />
     <ClCompile Include="algorithm\007.reverse.cpp" />
+    <ClCompile Include="algorithm\008.my_atoi.cpp" />
     <ClCompile Include="algorithm\009.is_palindrome.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -49,3 +49,6 @@ target_link_libraries(007.reverse gtest)
 
 add_executable(009.is_palindrome 009.is_palindrome.cpp)
 target_link_libraries(009.is_palindrome gtest)
+
+add_executable(010.is_match 010.is_match.cpp)
+target_link_libraries(010.is_match gtest)

@@ -32,23 +32,23 @@ target_link_libraries(001.two_sum gtest)
 add_executable(002.add_two_numbers 002.add_two_numbers.cpp)
 target_link_libraries(002.add_two_numbers gtest)
 
-add_executable(003.length_of_longest_substring 003.length_of_longest_substring.cpp)
-target_link_libraries(003.length_of_longest_substring gtest)
+add_executable(003.longest_substring_without_repeating_characters 003.longest_substring_without_repeating_characters.cpp)
+target_link_libraries(003.longest_substring_without_repeating_characters gtest)
 
-add_executable(004.find_median_sorted_arrays 004.find_median_sorted_arrays.cpp)
-target_link_libraries(004.find_median_sorted_arrays gtest)
+add_executable(005.longest_palindromic_substring 005.longest_palindromic_substring.cpp)
+target_link_libraries(005.longest_palindromic_substring gtest)
 
-add_executable(005.longest_palindrome 005.longest_palindrome.cpp)
-target_link_libraries(005.longest_palindrome gtest)
+add_executable(006.zigzag_conversion 006.zigzag_conversion.cpp)
+target_link_libraries(006.zigzag_conversion gtest)
 
-add_executable(006.convert 006.convert.cpp)
-target_link_libraries(006.convert gtest)
+add_executable(007.reverse_integer 007.reverse_integer.cpp)
+target_link_libraries(007.reverse_integer gtest)
 
-add_executable(007.reverse 007.reverse.cpp)
-target_link_libraries(007.reverse gtest)
+add_executable(008.string_to_integer_atoi 008.string_to_integer_atoi.cpp)
+target_link_libraries(008.string_to_integer_atoi gtest)
 
-add_executable(009.is_palindrome 009.is_palindrome.cpp)
-target_link_libraries(009.is_palindrome gtest)
+add_executable(009.palindrome_number 009.palindrome_number.cpp)
+target_link_libraries(009.palindrome_number gtest)
 
-add_executable(010.is_match 010.is_match.cpp)
-target_link_libraries(010.is_match gtest)
+add_executable(011.container_with_most_water 011.container_with_most_water.cpp)
+target_link_libraries(011.container_with_most_water gtest)

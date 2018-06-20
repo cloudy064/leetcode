@@ -52,3 +52,6 @@ target_link_libraries(009.palindrome_number gtest)
 
 add_executable(011.container_with_most_water 011.container_with_most_water.cpp)
 target_link_libraries(011.container_with_most_water gtest)
+
+add_executable(012.integer_to_roman 012.integer_to_roman.cpp)
+target_link_libraries(012.integer_to_roman gtest)

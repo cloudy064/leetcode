@@ -7,7 +7,7 @@
 
 using namespace std;
 
-/// Solution for https://leetcode-cn.com/problems/string-to-integer-atoi/description/
+/// Solution for https://leetcode-cn.com/problems/container-with-most-water/description/
 
 class Solution {
 public:

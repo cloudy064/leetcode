@@ -53,6 +53,8 @@ public:
 			palindrome.push_back(c);
 		}
 
+		delete[] palindromeLength;
+
 		return palindrome;
 	}
 };

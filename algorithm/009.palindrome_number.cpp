@@ -4,6 +4,8 @@
 
 #include "common.h"
 
+/// Solution for https://leetcode-cn.com/problems/palindrome-number/description/
+
 class Solution {
 public:
 	bool isPalindrome(int x) {

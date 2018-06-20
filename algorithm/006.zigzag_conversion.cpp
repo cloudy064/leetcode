@@ -8,6 +8,8 @@
 
 using namespace std;
 
+/// Solution for https://leetcode-cn.com/problems/zigzag-conversion/description/
+
 class Solution {
 public:
 	string convert(string s, int numRows) {

@@ -12,25 +12,28 @@
     <ClCompile Include="algorithm\002.add_two_numbers.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm\003.length_of_longest_substring.cpp">
+    <ClCompile Include="algorithm\003.longest_substring_without_repeating_characters.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm\004.find_median_sorted_arrays.cpp">
+    <ClCompile Include="algorithm\004.median_of_two_sorted_arrays.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm\005.longest_palindrome.cpp">
+    <ClCompile Include="algorithm\005.longest_palindromic_substring.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm\006.convert.cpp">
+    <ClCompile Include="algorithm\006.zigzag_conversion.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm\007.reverse.cpp">
+    <ClCompile Include="algorithm\007.reverse_integer.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm\009.is_palindrome.cpp">
+    <ClCompile Include="algorithm\008.string_to_integer_atoi.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm\008.my_atoi.cpp">
+    <ClCompile Include="algorithm\009.palindrome_number.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\010.regular_expression_matching.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,5 +41,8 @@
     <ClInclude Include="algorithm\common.h">
       <Filter>algorithm</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

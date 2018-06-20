@@ -9,6 +9,8 @@
 
 using namespace std;
 
+/// Solution for https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/
+
 class Solution {
 public:
 	int lengthOfLongestSubstring(string s) {

@@ -6,6 +6,8 @@
 
 using namespace std;
 
+/// Solution for https://leetcode-cn.com/problems/string-to-integer-atoi/description/
+
 class Solution {
 public:
 	int myAtoi(string str) {

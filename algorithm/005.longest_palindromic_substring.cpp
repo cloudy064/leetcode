@@ -8,6 +8,8 @@
 
 using namespace std;
 
+/// Solution for https://leetcode-cn.com/problems/longest-palindromic-substring/description/
+
 class Solution {
 public:
 	// Manacher algorithm

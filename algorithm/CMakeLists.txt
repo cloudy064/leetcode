@@ -58,3 +58,6 @@ target_link_libraries(012.integer_to_roman gtest)
 
 add_executable(013.roman_to_integer 013.roman_to_integer.cpp)
 target_link_libraries(013.roman_to_integer gtest)
+
+add_executable(014.longest_common_prefix 014.longest_common_prefix.cpp)
+target_link_libraries(014.longest_common_prefix gtest)

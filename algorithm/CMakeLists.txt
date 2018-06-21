@@ -67,3 +67,6 @@ target_link_libraries(015.3sum gtest)
 
 add_executable(016.3sum_closest 016.3sum_closest.cpp)
 target_link_libraries(016.3sum_closest gtest)
+
+add_executable(017.letter_combinations_of_a_phone_number 017.letter_combinations_of_a_phone_number.cpp)
+target_link_libraries(017.letter_combinations_of_a_phone_number gtest)

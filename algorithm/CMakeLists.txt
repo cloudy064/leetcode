@@ -64,3 +64,6 @@ target_link_libraries(014.longest_common_prefix gtest)
 
 add_executable(015.3sum 015.3sum.cpp)
 target_link_libraries(015.3sum gtest)
+
+add_executable(016.3sum_closest 016.3sum_closest.cpp)
+target_link_libraries(016.3sum_closest gtest)

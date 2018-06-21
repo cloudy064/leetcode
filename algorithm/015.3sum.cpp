@@ -35,6 +35,7 @@ public:
 					result.push_back({nums[i], nums[j], nums[k]});
 				}
 
+                if (left == right) break;
 				if (sum <= -target)
 				{
 					for (++j; (j < k) && (nums[j] == left) && (nums[j] != right); ++j);
@@ -42,8 +43,6 @@ public:
 				{
 					for (--k; (j < k) && (nums[k] == right) && (nums[k] != left); --k);
 				}
-
-                if (left == right) break;
 			}
 
 			for (++i; (i < size - 2) && (nums[i] == target); ++i);

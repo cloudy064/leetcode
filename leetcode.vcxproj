@@ -46,6 +46,11 @@
     <ClCompile Include="algorithm\008.string_to_integer_atoi.cpp" />
     <ClCompile Include="algorithm\009.palindrome_number.cpp" />
     <ClCompile Include="algorithm\010.regular_expression_matching.cpp" />
+    <ClCompile Include="algorithm\011.container_with_most_water.cpp" />
+    <ClCompile Include="algorithm\012.integer_to_roman.cpp" />
+    <ClCompile Include="algorithm\013.roman_to_integer.cpp" />
+    <ClCompile Include="algorithm\014.longest_common_prefix.cpp" />
+    <ClCompile Include="algorithm\015.3sum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\common.h" />

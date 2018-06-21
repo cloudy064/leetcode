@@ -36,6 +36,21 @@
     <ClCompile Include="algorithm\010.regular_expression_matching.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="algorithm\011.container_with_most_water.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\012.integer_to_roman.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\013.roman_to_integer.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\014.longest_common_prefix.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\015.3sum.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\common.h">

@@ -46,40 +46,40 @@ public:
     }
 };
 
-class Test011Solution : public ::testing::Test {
+class Test012Solution : public ::testing::Test {
 public:
     Solution sln;
 };
 
-TEST_F(Test011Solution, t1)
+TEST_F(Test012Solution, t1)
 {
     string expect = "III";
     string result = sln.intToRoman(3);
     EXPECT_TRUE(expect.compare(result) == 0);
 }
 
-TEST_F(Test011Solution, t2)
+TEST_F(Test012Solution, t2)
 {
     string expect = "IV";
     string result = sln.intToRoman(4);
     EXPECT_TRUE(expect.compare(result) == 0);
 }
 
-TEST_F(Test011Solution, t3)
+TEST_F(Test012Solution, t3)
 {
     string expect = "IX";
     string result = sln.intToRoman(9);
     EXPECT_TRUE(expect.compare(result) == 0);
 }
 
-TEST_F(Test011Solution, t4)
+TEST_F(Test012Solution, t4)
 {
     string expect = "LVIII";
     string result = sln.intToRoman(58);
     EXPECT_TRUE(expect.compare(result) == 0);
 }
 
-TEST_F(Test011Solution, t5)
+TEST_F(Test012Solution, t5)
 {
     string expect = "MCMXCIV";
     string result = sln.intToRoman(1994);

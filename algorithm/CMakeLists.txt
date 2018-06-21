@@ -61,3 +61,6 @@ target_link_libraries(013.roman_to_integer gtest)
 
 add_executable(014.longest_common_prefix 014.longest_common_prefix.cpp)
 target_link_libraries(014.longest_common_prefix gtest)
+
+add_executable(015.3sum 015.3sum.cpp)
+target_link_libraries(015.3sum gtest)

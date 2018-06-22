@@ -1,7 +1,13 @@
+#pragma once
+
+
 #ifndef COMMON_H
 #define COMMON_H
 
 #include "gtest/gtest.h"
+#include <vector>
+
+using namespace std;
 
 #ifdef WIN32
 
@@ -16,5 +22,17 @@
 	}
 
 #endif
+
+struct ListNode {
+	int val;
+	ListNode *next;
+	ListNode(int x) : val(x), next(nullptr) {}
+};
+
+ListNode* newNodes(const vector<int>& nums);
+
+void deleteNodes(ListNode* node);
+
+bool equalNodes(ListNode* node1, ListNode* node2);
 
 #endif //COMMON_H

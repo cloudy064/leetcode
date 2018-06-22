@@ -8,13 +8,6 @@
 
 using namespace std;
 
-
-struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
-
 /// Solution for https://leetcode-cn.com/problems/add-two-numbers/description/
 
 class Solution {
@@ -66,29 +59,6 @@ public:
 	}
 };
 
-ListNode* newNodes(const int* nums, int count) {
-	if (count <= 0) return nullptr;
-	ListNode* node = new ListNode(nums[0]);
-	node->next = newNodes(nums + 1, count - 1);
-	return node;
-}
-
-void deleteNodes(ListNode* node) {
-	if (node == nullptr) return;
-	ListNode* next = node->next;
-	delete node;
-	deleteNodes(next);
-}
-
-bool equalNodes(ListNode* node1, ListNode* node2) {
-	if (node1 == nullptr && node2 == nullptr) return true;
-	if (node1 == nullptr || node2 == nullptr) return false;
-
-	if (node1->val != node2->val) return false;
-
-	return equalNodes(node1->next, node2->next);
-}
-
 class Test002Solution : public ::testing::Test {
 public:
 	virtual void SetUp() {
@@ -112,39 +82,30 @@ public:
 	ListNode* expect;
 };
 
-#define COUNT_OF(arr) sizeof(arr) / sizeof((arr)[0])
-
 TEST_F(Test002Solution, t1) {
-	int nums1[] = { 1,2,3 };
-	node1 = newNodes(nums1, COUNT_OF(nums1));
-	node2 = newNodes(nums1, COUNT_OF(nums1));
+	node1 = newNodes({ 1,2,3 });
+	node2 = newNodes({ 1,2,3 });
 	result = sln.addTwoNumbers(node1, node2);
 
-	int expectNums[] = { 2,4,6 };
-	expect = newNodes(expectNums, COUNT_OF(expectNums));
+	expect = newNodes({ 2,4,6 });
 	ASSERT_TRUE(equalNodes(result, expect));
 }
 
 TEST_F(Test002Solution, t2) {
-	int nums1[] = { 1,5,7 };
-	node1 = newNodes(nums1, COUNT_OF(nums1));
-	node2 = newNodes(nums1, COUNT_OF(nums1));
+	node1 = newNodes({ 1,5,7 });
+	node2 = newNodes({ 1,5,7 });
 	result = sln.addTwoNumbers(node1, node2);
 
-	int expectNums[] = { 2,0,5,1 };
-	expect = newNodes(expectNums, COUNT_OF(expectNums));
+	expect = newNodes({ 2,0,5,1 });
 	ASSERT_TRUE(equalNodes(result, expect));
 }
 
 TEST_F(Test002Solution, t3) {
-	int nums1[] = { 1,8 };
-	node1 = newNodes(nums1, COUNT_OF(nums1));
-	int nums2[] = { 0 };
-	node2 = newNodes(nums2, COUNT_OF(nums2));
+	node1 = newNodes({ 1,8 });
+	node2 = newNodes({ 0 });
 	result = sln.addTwoNumbers(node1, node2);
 
-	int expectNums[] = { 1,8 };
-	expect = newNodes(expectNums, COUNT_OF(expectNums));
+	expect = newNodes({ 1,8 });
 	ASSERT_TRUE(equalNodes(result, expect));
 }
 

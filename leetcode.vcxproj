@@ -51,6 +51,13 @@
     <ClCompile Include="algorithm\013.roman_to_integer.cpp" />
     <ClCompile Include="algorithm\014.longest_common_prefix.cpp" />
     <ClCompile Include="algorithm\015.3sum.cpp" />
+    <ClCompile Include="algorithm\016.3sum_closest.cpp" />
+    <ClCompile Include="algorithm\017.letter_combinations_of_a_phone_number.cpp" />
+    <ClCompile Include="algorithm\019.remove_nth_node_from_end_of_list.cpp" />
+    <ClCompile Include="algorithm\020.valid_parentheses.cpp" />
+    <ClCompile Include="algorithm\021.merge_two_sorted_lists.cpp" />
+    <ClCompile Include="algorithm\022.generate_parentheses.cpp" />
+    <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\common.h" />

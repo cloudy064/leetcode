@@ -12,9 +12,9 @@ using namespace std;
 
 class Solution {
 public:
-    const string roman = "IVXLCDM."; // last character is used for bound check
-
     string intToRoman(int num) {
+		const string roman = "IVXLCDM."; // last character is used for bound check
+
         string res;
 
         int idx = 0;

@@ -56,7 +56,7 @@ TEST_F(Test019Solution, t1)
 	auto result = sln.removeNthFromEnd(l1, 1);
 	ASSERT_TRUE(equalNodes(result, expect));
 	deleteNodes(result);
-	deleteNodes(l1);
+	deleteNodes(expect);
 }
 
 TEST_F(Test019Solution, t2)
@@ -66,7 +66,7 @@ TEST_F(Test019Solution, t2)
 	auto result = sln.removeNthFromEnd(l1, 1);
 	ASSERT_TRUE(equalNodes(result, expect));
 	deleteNodes(result);
-	deleteNodes(l1);
+	deleteNodes(expect);
 }
 
 TEST_F(Test019Solution, t3)
@@ -76,7 +76,7 @@ TEST_F(Test019Solution, t3)
 	auto result = sln.removeNthFromEnd(l1, 2);
 	ASSERT_TRUE(equalNodes(result, expect));
 	deleteNodes(result);
-	deleteNodes(l1);
+	deleteNodes(expect);
 }
 
 GTEST_MAIN

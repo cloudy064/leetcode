@@ -12,7 +12,7 @@ using namespace std;
 /// Solution for https://leetcode-cn.com/problems/generate-parentheses/description/
 
 // *time exceed
-
+/*
 class Solution {
 public:
     void permutation_core(vector<int>& digits, int from, int size, set<vector<int>>& result, int count_p_1, int count_n_1) {
@@ -86,7 +86,32 @@ public:
         return p;
     }
 };
+*/
 
+class Solution {
+public:
+    void dfs(vector<string>& results, const string temp, int left, int right) {
+        if (left > right) return;
+        if (left < 0 || right < 0) return;
+
+        if (left == 0 && right == 0) {
+            results.push_back(temp);
+            return;
+        }
+
+        dfs(results, temp + '(', left - 1, right);
+        dfs(results, temp + ')', left, right - 1);
+    }
+
+    vector<string> generateParenthesis(int n) {
+        if (n == 0) return {""};
+        if (n == 1) return {"()"};
+
+        vector<string> results;
+        dfs(results, "", n, n);
+        return results;
+    }
+};
 
 
 class Test022Solution : public ::testing::Test {

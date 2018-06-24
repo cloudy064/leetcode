@@ -85,3 +85,6 @@ target_link_libraries(021.merge_two_sorted_lists gtest)
 
 add_executable(022.generate_parentheses 022.generate_parentheses.cpp common.cpp)
 target_link_libraries(022.generate_parentheses gtest)
+
+add_executable(023.merge_k_sorted_lists 023.merge_k_sorted_lists.cpp common.cpp)
+target_link_libraries(023.merge_k_sorted_lists gtest)

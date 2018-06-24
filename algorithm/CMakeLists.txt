@@ -88,3 +88,6 @@ target_link_libraries(022.generate_parentheses gtest)
 
 add_executable(023.merge_k_sorted_lists 023.merge_k_sorted_lists.cpp common.cpp)
 target_link_libraries(023.merge_k_sorted_lists gtest)
+
+add_executable(024.swap_nodes_in_pairs 024.swap_nodes_in_pairs.cpp common.cpp)
+target_link_libraries(024.swap_nodes_in_pairs gtest)

@@ -91,3 +91,6 @@ target_link_libraries(023.merge_k_sorted_lists gtest)
 
 add_executable(024.swap_nodes_in_pairs 024.swap_nodes_in_pairs.cpp common.cpp)
 target_link_libraries(024.swap_nodes_in_pairs gtest)
+
+add_executable(025.reverse_nodes_in_k_group 025.reverse_nodes_in_k_group.cpp common.cpp)
+target_link_libraries(025.reverse_nodes_in_k_group gtest)

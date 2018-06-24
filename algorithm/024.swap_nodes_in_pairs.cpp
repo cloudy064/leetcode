@@ -50,12 +50,12 @@ public:
     }
 };
 
-class Test023Solution : public ::testing::Test {
+class Test024Solution : public ::testing::Test {
 public:
     Solution sln;
 };
 
-TEST_F(Test023Solution, t1)
+TEST_F(Test024Solution, t1)
 {
     auto nodes = newNodes({1,2,3,4});
     auto expect = newNodes({2,1,4,3});
@@ -63,7 +63,7 @@ TEST_F(Test023Solution, t1)
     EXPECT_TRUE(equalNodes(expect, result));
 }
 
-TEST_F(Test023Solution, t2)
+TEST_F(Test024Solution, t2)
 {
     auto nodes = newNodes({1});
     auto expect = newNodes({1});
@@ -71,7 +71,7 @@ TEST_F(Test023Solution, t2)
     EXPECT_TRUE(equalNodes(expect, result));
 }
 
-TEST_F(Test023Solution, t3)
+TEST_F(Test024Solution, t3)
 {
     auto nodes = newNodes({1,2,3});
     auto expect = newNodes({2,1,3});
@@ -79,7 +79,7 @@ TEST_F(Test023Solution, t3)
     EXPECT_TRUE(equalNodes(expect, result));
 }
 
-TEST_F(Test023Solution, t4)
+TEST_F(Test024Solution, t4)
 {
     auto nodes = newNodes({1,2,3,4,5,6});
     auto expect = newNodes({2,1,4,3,6,5});
@@ -87,7 +87,7 @@ TEST_F(Test023Solution, t4)
     EXPECT_TRUE(equalNodes(expect, result));
 }
 
-TEST_F(Test023Solution, t5)
+TEST_F(Test024Solution, t5)
 {
     auto nodes = newNodes({1,2,3,4,5,6,7});
     auto expect = newNodes({2,1,4,3,6,5,7});

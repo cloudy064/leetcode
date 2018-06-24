@@ -26,47 +26,62 @@ add_subdirectory(./googletest)
 include_directories(./googletest/googletest/include)
 link_directories(./googletest/googletest)
 
-add_executable(001.two_sum 001.two_sum.cpp)
+add_executable(001.two_sum 001.two_sum.cpp common.cpp)
 target_link_libraries(001.two_sum gtest)
 
-add_executable(002.add_two_numbers 002.add_two_numbers.cpp)
+add_executable(002.add_two_numbers 002.add_two_numbers.cpp common.cpp)
 target_link_libraries(002.add_two_numbers gtest)
 
-add_executable(003.longest_substring_without_repeating_characters 003.longest_substring_without_repeating_characters.cpp)
+add_executable(003.longest_substring_without_repeating_characters 003.longest_substring_without_repeating_characters.cpp common.cpp)
 target_link_libraries(003.longest_substring_without_repeating_characters gtest)
 
-add_executable(005.longest_palindromic_substring 005.longest_palindromic_substring.cpp)
+add_executable(005.longest_palindromic_substring 005.longest_palindromic_substring.cpp common.cpp)
 target_link_libraries(005.longest_palindromic_substring gtest)
 
-add_executable(006.zigzag_conversion 006.zigzag_conversion.cpp)
+add_executable(006.zigzag_conversion 006.zigzag_conversion.cpp common.cpp)
 target_link_libraries(006.zigzag_conversion gtest)
 
-add_executable(007.reverse_integer 007.reverse_integer.cpp)
+add_executable(007.reverse_integer 007.reverse_integer.cpp common.cpp)
 target_link_libraries(007.reverse_integer gtest)
 
-add_executable(008.string_to_integer_atoi 008.string_to_integer_atoi.cpp)
+add_executable(008.string_to_integer_atoi 008.string_to_integer_atoi.cpp common.cpp)
 target_link_libraries(008.string_to_integer_atoi gtest)
 
-add_executable(009.palindrome_number 009.palindrome_number.cpp)
+add_executable(009.palindrome_number 009.palindrome_number.cpp common.cpp)
 target_link_libraries(009.palindrome_number gtest)
 
-add_executable(011.container_with_most_water 011.container_with_most_water.cpp)
+add_executable(011.container_with_most_water 011.container_with_most_water.cpp common.cpp)
 target_link_libraries(011.container_with_most_water gtest)
 
-add_executable(012.integer_to_roman 012.integer_to_roman.cpp)
+add_executable(012.integer_to_roman 012.integer_to_roman.cpp common.cpp)
 target_link_libraries(012.integer_to_roman gtest)
 
-add_executable(013.roman_to_integer 013.roman_to_integer.cpp)
+add_executable(013.roman_to_integer 013.roman_to_integer.cpp common.cpp)
 target_link_libraries(013.roman_to_integer gtest)
 
-add_executable(014.longest_common_prefix 014.longest_common_prefix.cpp)
+add_executable(014.longest_common_prefix 014.longest_common_prefix.cpp common.cpp)
 target_link_libraries(014.longest_common_prefix gtest)
 
-add_executable(015.3sum 015.3sum.cpp)
+add_executable(015.3sum 015.3sum.cpp common.cpp)
 target_link_libraries(015.3sum gtest)
 
-add_executable(016.3sum_closest 016.3sum_closest.cpp)
+add_executable(016.3sum_closest 016.3sum_closest.cpp common.cpp)
 target_link_libraries(016.3sum_closest gtest)
 
-add_executable(017.letter_combinations_of_a_phone_number 017.letter_combinations_of_a_phone_number.cpp)
+add_executable(017.letter_combinations_of_a_phone_number 017.letter_combinations_of_a_phone_number.cpp common.cpp)
 target_link_libraries(017.letter_combinations_of_a_phone_number gtest)
+
+add_executable(018.4sum 018.4sum.cpp common.cpp)
+target_link_libraries(018.4sum gtest)
+
+add_executable(019.remove_nth_node_from_end_of_list 019.remove_nth_node_from_end_of_list.cpp common.cpp)
+target_link_libraries(019.remove_nth_node_from_end_of_list gtest)
+
+add_executable(020.valid_parentheses 020.valid_parentheses.cpp common.cpp)
+target_link_libraries(020.valid_parentheses gtest)
+
+add_executable(021.merge_two_sorted_lists 021.merge_two_sorted_lists.cpp common.cpp)
+target_link_libraries(021.merge_two_sorted_lists gtest)
+
+add_executable(022.generate_parentheses 022.generate_parentheses.cpp common.cpp)
+target_link_libraries(022.generate_parentheses gtest)

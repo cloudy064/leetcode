@@ -42,7 +42,7 @@ public:
 		{
 			while (j > 0 && haystack[i] != needle[j])
 			{
-				j = next[j];
+				j = next[j - 1];
 			}
 
 			if (haystack[i] == needle[j])
@@ -85,6 +85,12 @@ TEST_F(Test028Solution, t4) {
 TEST_F(Test028Solution, t5) {
 	auto idx = sln.strStr("abcde", "abce");
 	EXPECT_EQ(idx, -1);
+}
+
+TEST_F(Test028Solution, t6)
+{
+	auto idx = sln.strStr("mississippi", "issip");
+	EXPECT_EQ(idx, 4);
 }
 
 GTEST_MAIN

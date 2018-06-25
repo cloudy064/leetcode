@@ -57,6 +57,11 @@
     <ClCompile Include="algorithm\020.valid_parentheses.cpp" />
     <ClCompile Include="algorithm\021.merge_two_sorted_lists.cpp" />
     <ClCompile Include="algorithm\022.generate_parentheses.cpp" />
+    <ClCompile Include="algorithm\023.merge_k_sorted_lists.cpp" />
+    <ClCompile Include="algorithm\024.swap_nodes_in_pairs.cpp" />
+    <ClCompile Include="algorithm\025.reverse_nodes_in_k_group.cpp" />
+    <ClCompile Include="algorithm\026.remove_duplicates_from_sorted_array.cpp" />
+    <ClCompile Include="algorithm\027.remove_element.cpp" />
     <ClCompile Include="algorithm\028.implement_strstr.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>

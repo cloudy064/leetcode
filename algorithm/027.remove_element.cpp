@@ -21,7 +21,7 @@ public:
 
         for (int i = 0; i < size - count_of_val; ++i) {
             if (nums[i] == val) {
-                while (nums[size - count_of_val - 1] == val) {
+                while (count_of_val < size && nums[size - count_of_val - 1] == val) {
                     ++count_of_val;
                 }
 

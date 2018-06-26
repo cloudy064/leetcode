@@ -4,6 +4,7 @@
         "list": "cpp",
         "vector": "cpp",
         "xstring": "cpp",
-        "forward_list": "cpp"
+        "forward_list": "cpp",
+        "map": "cpp"
     }
 }

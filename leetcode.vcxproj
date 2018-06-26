@@ -63,6 +63,7 @@
     <ClCompile Include="algorithm\026.remove_duplicates_from_sorted_array.cpp" />
     <ClCompile Include="algorithm\027.remove_element.cpp" />
     <ClCompile Include="algorithm\028.implement_strstr.cpp" />
+    <ClCompile Include="algorithm\029.divide_two_integers.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>

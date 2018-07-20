@@ -88,7 +88,7 @@ TEST_F(Test029Solution, t3)
 
 TEST_F(Test029Solution, t4)
 {
-    EXPECT_EQ(sln.divide(1, 2), 1);
+    EXPECT_EQ(sln.divide(1, 2), 0);
 }
 
 TEST_F(Test029Solution, t5)

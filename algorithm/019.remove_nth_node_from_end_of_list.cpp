@@ -46,37 +46,37 @@ public:
 
 class Test019Solution : public ::testing::Test {
 public:
-	Solution sln;
+    Solution sln;
 };
 
 TEST_F(Test019Solution, t1)
 {
-	auto l1 = newNodes({ 1,2,3,4,5 });
-	auto expect = newNodes({ 1,2,3,4 });
-	auto result = sln.removeNthFromEnd(l1, 1);
-	ASSERT_TRUE(equalNodes(result, expect));
-	deleteNodes(result);
-	deleteNodes(expect);
+    auto l1 = newNodes({ 1,2,3,4,5 });
+    auto expect = newNodes({ 1,2,3,4 });
+    auto result = sln.removeNthFromEnd(l1, 1);
+    ASSERT_TRUE(equalNodes(result, expect));
+    deleteNodes(result);
+    deleteNodes(expect);
 }
 
 TEST_F(Test019Solution, t2)
 {
-	auto l1 = newNodes({ 1 });
-	auto expect = newNodes({ });
-	auto result = sln.removeNthFromEnd(l1, 1);
-	ASSERT_TRUE(equalNodes(result, expect));
-	deleteNodes(result);
-	deleteNodes(expect);
+    auto l1 = newNodes({ 1 });
+    auto expect = newNodes({ });
+    auto result = sln.removeNthFromEnd(l1, 1);
+    ASSERT_TRUE(equalNodes(result, expect));
+    deleteNodes(result);
+    deleteNodes(expect);
 }
 
 TEST_F(Test019Solution, t3)
 {
-	auto l1 = newNodes({ 1, 2 });
-	auto expect = newNodes({2});
-	auto result = sln.removeNthFromEnd(l1, 2);
-	ASSERT_TRUE(equalNodes(result, expect));
-	deleteNodes(result);
-	deleteNodes(expect);
+    auto l1 = newNodes({ 1, 2 });
+    auto expect = newNodes({2});
+    auto result = sln.removeNthFromEnd(l1, 2);
+    ASSERT_TRUE(equalNodes(result, expect));
+    deleteNodes(result);
+    deleteNodes(expect);
 }
 
 GTEST_MAIN

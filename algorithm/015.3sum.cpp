@@ -13,56 +13,56 @@ using namespace std;
 
 class Solution {
 public:
-	vector<vector<int>> threeSum(vector<int>& nums) {
-		int size = nums.size();
-		if (size < 3) return {};
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        int size = nums.size();
+        if (size < 3) return {};
 
-		sort(nums.begin(), nums.end());
-		vector<vector<int>> result;
-		int i = 0;
-		while (i < size - 2)
-		{
-			int j = i + 1;
-			int k = size - 1;
-			int target = nums[i];
-			while (j < k)
-			{
-				int left = nums[j];
-				int right = nums[k];
-				int sum = left + right;
-				if (sum == -target)
-				{
-					result.push_back({nums[i], nums[j], nums[k]});
-				}
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> result;
+        int i = 0;
+        while (i < size - 2)
+        {
+            int j = i + 1;
+            int k = size - 1;
+            int target = nums[i];
+            while (j < k)
+            {
+                int left = nums[j];
+                int right = nums[k];
+                int sum = left + right;
+                if (sum == -target)
+                {
+                    result.push_back({nums[i], nums[j], nums[k]});
+                }
 
                 if (left == right) break;
-				if (sum <= -target)
-				{
-					for (++j; (j < k) && (nums[j] == left) && (nums[j] != right); ++j);
-				} else
-				{
-					for (--k; (j < k) && (nums[k] == right) && (nums[k] != left); --k);
-				}
-			}
+                if (sum <= -target)
+                {
+                    for (++j; (j < k) && (nums[j] == left) && (nums[j] != right); ++j);
+                } else
+                {
+                    for (--k; (j < k) && (nums[k] == right) && (nums[k] != left); --k);
+                }
+            }
 
-			for (++i; (i < size - 2) && (nums[i] == target); ++i);
-		}
+            for (++i; (i < size - 2) && (nums[i] == target); ++i);
+        }
 
-		return result;
-	}
+        return result;
+    }
 };
 
 class Test015Solution : public ::testing::Test {
 public:
-	Solution sln;
+    Solution sln;
 };
 
 TEST_F(Test015Solution, t1)
 {
-	vector<int> nums = { -1, 0, 1, 2, -1, -4 };
-	auto result = sln.threeSum(nums);
-	vector<vector<int>> expect = {{-1, -1, 2}, {-1, 0, 1}};
-	EXPECT_EQ(expect, result);
+    vector<int> nums = { -1, 0, 1, 2, -1, -4 };
+    auto result = sln.threeSum(nums);
+    vector<vector<int>> expect = {{-1, -1, 2}, {-1, 0, 1}};
+    EXPECT_EQ(expect, result);
 }
 
 TEST_F(Test015Solution, t2)

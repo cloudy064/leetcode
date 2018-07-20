@@ -15,18 +15,18 @@ using namespace std;
 
 #else
 
-#define GTEST_MAIN 	\
-	int main(int argc, char *argv[]) {\
+#define GTEST_MAIN     \
+    int main(int argc, char *argv[]) {\
         testing::InitGoogleTest(&argc, argv);\
         return RUN_ALL_TESTS();\
-	}
+    }
 
 #endif
 
 struct ListNode {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(nullptr) {}
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(nullptr) {}
 };
 
 ListNode* newNodes(const vector<int>& nums);

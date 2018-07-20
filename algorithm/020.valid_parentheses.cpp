@@ -59,27 +59,27 @@ public:
 
 class Test020Solution : public ::testing::Test {
 public:
-	Solution sln;
+    Solution sln;
 };
 
 TEST_F(Test020Solution, t1)
 {
-	ASSERT_TRUE(sln.isValid(""));
+    ASSERT_TRUE(sln.isValid(""));
 }
 
 TEST_F(Test020Solution, t2)
 {
-	ASSERT_TRUE(sln.isValid("()"));
-	ASSERT_TRUE(sln.isValid("([])"));
-	ASSERT_TRUE(sln.isValid("({})"));
-	ASSERT_TRUE(sln.isValid("{([])}"));
+    ASSERT_TRUE(sln.isValid("()"));
+    ASSERT_TRUE(sln.isValid("([])"));
+    ASSERT_TRUE(sln.isValid("({})"));
+    ASSERT_TRUE(sln.isValid("{([])}"));
 }
 
 TEST_F(Test020Solution, t3)
 {
-	ASSERT_FALSE(sln.isValid("(]"));
-	ASSERT_FALSE(sln.isValid("([)]"));
-	ASSERT_FALSE(sln.isValid("([)"));
+    ASSERT_FALSE(sln.isValid("(]"));
+    ASSERT_FALSE(sln.isValid("([)]"));
+    ASSERT_FALSE(sln.isValid("([)"));
 }
 
 

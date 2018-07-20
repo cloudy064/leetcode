@@ -74,40 +74,40 @@ public:
 
 class Test021Solution : public ::testing::Test {
 public:
-	Solution sln;
+    Solution sln;
 };
 
 TEST_F(Test021Solution, t1)
 {
-	auto l1 = newNodes({ 1, 2, 3, 4 });
-	auto l2 = newNodes({ 1, 2, 3, 4 });
-	auto expect = newNodes({ 1,1,2,2,3,3,4,4 });
-	auto result = sln.mergeTwoLists(l1, l2);
-	ASSERT_TRUE(equalNodes(expect, result));
-	deleteNodes(result);
-	deleteNodes(expect);
+    auto l1 = newNodes({ 1, 2, 3, 4 });
+    auto l2 = newNodes({ 1, 2, 3, 4 });
+    auto expect = newNodes({ 1,1,2,2,3,3,4,4 });
+    auto result = sln.mergeTwoLists(l1, l2);
+    ASSERT_TRUE(equalNodes(expect, result));
+    deleteNodes(result);
+    deleteNodes(expect);
 }
 
 TEST_F(Test021Solution, t2)
 {
-	auto l1 = newNodes({ 1, 2, 3, 4 });
-	auto l2 = newNodes({ });
-	auto expect = newNodes({ 1,2,3,4 });
-	auto result = sln.mergeTwoLists(l1, l2);
-	ASSERT_TRUE(equalNodes(expect, result));
-	deleteNodes(result);
-	deleteNodes(expect);
+    auto l1 = newNodes({ 1, 2, 3, 4 });
+    auto l2 = newNodes({ });
+    auto expect = newNodes({ 1,2,3,4 });
+    auto result = sln.mergeTwoLists(l1, l2);
+    ASSERT_TRUE(equalNodes(expect, result));
+    deleteNodes(result);
+    deleteNodes(expect);
 }
 
 TEST_F(Test021Solution, t3)
 {
-	auto l1 = newNodes({ 1, 2, 3, 4 });
-	auto l2 = newNodes({ 1, 2, 3 });
-	auto expect = newNodes({ 1,1,2,2,3,3,4 });
-	auto result = sln.mergeTwoLists(l1, l2);
-	ASSERT_TRUE(equalNodes(expect, result));
-	deleteNodes(result);
-	deleteNodes(expect);
+    auto l1 = newNodes({ 1, 2, 3, 4 });
+    auto l2 = newNodes({ 1, 2, 3 });
+    auto expect = newNodes({ 1,1,2,2,3,3,4 });
+    auto result = sln.mergeTwoLists(l1, l2);
+    ASSERT_TRUE(equalNodes(expect, result));
+    deleteNodes(result);
+    deleteNodes(expect);
 }
 
 

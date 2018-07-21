@@ -64,6 +64,7 @@
     <ClCompile Include="algorithm\027.remove_element.cpp" />
     <ClCompile Include="algorithm\028.implement_strstr.cpp" />
     <ClCompile Include="algorithm\029.divide_two_integers.cpp" />
+    <ClCompile Include="algorithm\030.substring_with_concatenation_of_all_words.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>

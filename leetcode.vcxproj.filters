@@ -93,6 +93,9 @@
     <ClCompile Include="algorithm\029.divide_two_integers.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="algorithm\030.substring_with_concatenation_of_all_words.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\common.h">

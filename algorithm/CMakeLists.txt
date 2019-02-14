@@ -121,3 +121,6 @@ target_link_libraries(034.find-first-and-last-position-of-element-in-sorted-arra
 
 add_executable(035.search-insert-position 035.search-insert-position.cpp common.cpp)
 target_link_libraries(035.search-insert-position gtest)
+
+add_executable(036.valid-sudoku 036.valid-sudoku.cpp common.cpp)
+target_link_libraries(036.valid-sudoku gtest)

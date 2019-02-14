@@ -100,3 +100,12 @@ target_link_libraries(026.remove_duplicates_from_sorted_array gtest)
 
 add_executable(027.remove_element 027.remove_element.cpp common.cpp)
 target_link_libraries(027.remove_element gtest)
+
+add_executable(028.implement_strstr 028.implement_strstr.cpp common.cpp)
+target_link_libraries(028.implement_strstr gtest)
+
+add_executable(029.divide_two_integers 029.divide_two_integers.cpp common.cpp)
+target_link_libraries(029.divide_two_integers gtest)
+
+add_executable(030.substring_with_concatenation_of_all_words 030.substring_with_concatenation_of_all_words.cpp common.cpp)
+target_link_libraries(030.substring_with_concatenation_of_all_words gtest)

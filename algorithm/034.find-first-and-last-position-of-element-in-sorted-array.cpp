@@ -67,36 +67,36 @@ public:
     }
 };
 
-class Test033Solution : public ::testing::Test {
+class Test034Solution : public ::testing::Test {
 public:
     Solution sln;
 };
 
-TEST_F(Test033Solution, t1) {
+TEST_F(Test034Solution, t1) {
     vector<int> nums = {5,7,7,8,8,10};
     ASSERT_EQ(sln.searchRange(nums, 8), vector<int>({3, 4}));
     ASSERT_EQ(sln.searchRange(nums, 6), vector<int>({-1, -1}));
 }
 
-TEST_F(Test033Solution, t2) {
+TEST_F(Test034Solution, t2) {
     vector<int> nums = {5,5,5,5,5,5,5,5};
     ASSERT_EQ(sln.searchRange(nums, 5), vector<int>({0, 7}));
     ASSERT_EQ(sln.searchRange(nums, 6), vector<int>({-1, -1}));
 }
 
-TEST_F(Test033Solution, t3) {
+TEST_F(Test034Solution, t3) {
     vector<int> nums = {5,5,5,5,5,5,5};
     ASSERT_EQ(sln.searchRange(nums, 5), vector<int>({0, 6}));
     ASSERT_EQ(sln.searchRange(nums, 6), vector<int>({-1, -1}));
 }
 
-TEST_F(Test033Solution, t4) {
+TEST_F(Test034Solution, t4) {
     vector<int> nums = {5};
     ASSERT_EQ(sln.searchRange(nums, 5), vector<int>({0, 0}));
     ASSERT_EQ(sln.searchRange(nums, 6), vector<int>({-1, -1}));
 }
 
-TEST_F(Test033Solution, t5) {
+TEST_F(Test034Solution, t5) {
     vector<int> nums = {1,8,8,8,9,10};
     ASSERT_EQ(sln.searchRange(nums, 8), vector<int>({1, 3}));
     ASSERT_EQ(sln.searchRange(nums, 1), vector<int>({0,0}));

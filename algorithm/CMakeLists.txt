@@ -112,3 +112,6 @@ target_link_libraries(030.substring_with_concatenation_of_all_words gtest)
 
 add_executable(032.longest-valid-parentheses 032.longest-valid-parentheses.cpp common.cpp)
 target_link_libraries(032.longest-valid-parentheses gtest)
+
+add_executable(033.search-in-rotated-sorted-array 033.search-in-rotated-sorted-array.cpp common.cpp)
+target_link_libraries(033.search-in-rotated-sorted-array gtest)

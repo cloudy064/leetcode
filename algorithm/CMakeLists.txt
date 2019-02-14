@@ -118,3 +118,6 @@ target_link_libraries(033.search-in-rotated-sorted-array gtest)
 
 add_executable(034.find-first-and-last-position-of-element-in-sorted-array 034.find-first-and-last-position-of-element-in-sorted-array.cpp common.cpp)
 target_link_libraries(034.find-first-and-last-position-of-element-in-sorted-array gtest)
+
+add_executable(035.search-insert-position 035.search-insert-position.cpp common.cpp)
+target_link_libraries(035.search-insert-position gtest)

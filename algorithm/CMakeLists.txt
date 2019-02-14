@@ -109,3 +109,6 @@ target_link_libraries(029.divide_two_integers gtest)
 
 add_executable(030.substring_with_concatenation_of_all_words 030.substring_with_concatenation_of_all_words.cpp common.cpp)
 target_link_libraries(030.substring_with_concatenation_of_all_words gtest)
+
+add_executable(032.longest-valid-parentheses 032.longest-valid-parentheses.cpp common.cpp)
+target_link_libraries(032.longest-valid-parentheses gtest)

@@ -130,3 +130,6 @@ target_link_libraries(038.count-and-say gtest)
 
 add_executable(039.combination-sum 039.combination-sum.cpp common.cpp)
 target_link_libraries(039.combination-sum gtest)
+
+add_executable(040.combination-sum-ii 040.combination-sum-ii.cpp common.cpp)
+target_link_libraries(040.combination-sum-ii gtest)

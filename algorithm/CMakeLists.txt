@@ -127,3 +127,6 @@ target_link_libraries(036.valid-sudoku gtest)
 
 add_executable(038.count-and-say 038.count-and-say.cpp common.cpp)
 target_link_libraries(038.count-and-say gtest)
+
+add_executable(039.combination-sum 039.combination-sum.cpp common.cpp)
+target_link_libraries(039.combination-sum gtest)

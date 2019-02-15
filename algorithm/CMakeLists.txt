@@ -124,3 +124,6 @@ target_link_libraries(035.search-insert-position gtest)
 
 add_executable(036.valid-sudoku 036.valid-sudoku.cpp common.cpp)
 target_link_libraries(036.valid-sudoku gtest)
+
+add_executable(038.count-and-say 038.count-and-say.cpp common.cpp)
+target_link_libraries(038.count-and-say gtest)

@@ -136,3 +136,6 @@ target_link_libraries(040.combination-sum-ii gtest)
 
 add_executable(041.first-missing-positive 041.first-missing-positive.cpp common.cpp)
 target_link_libraries(041.first-missing-positive gtest)
+
+add_executable(043.multiply-strings 043.multiply-strings.cpp common.cpp)
+target_link_libraries(043.multiply-strings gtest)

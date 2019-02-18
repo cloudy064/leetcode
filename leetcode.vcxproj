@@ -76,6 +76,7 @@
     <ClCompile Include="algorithm\041.first-missing-positive.cpp" />
     <ClCompile Include="algorithm\043.multiply-strings.cpp" />
     <ClCompile Include="algorithm\046.permutations.cpp" />
+    <ClCompile Include="algorithm\047.permutations-ii.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>

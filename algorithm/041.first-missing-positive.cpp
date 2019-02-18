@@ -83,7 +83,7 @@ TEST_F(Test041Solution, t5) {
 }
 
 TEST_F(Test041Solution, t6) {
-    vector<int> candidates = {2147483647,2147483646,2147483645,3,2,1,-1,0,-2147483648};
+    vector<int> candidates = {INT_MAX,2147483646,2147483645,3,2,1,-1,0,INT_MIN };
     auto result = sln.firstMissingPositive(candidates);
     ASSERT_EQ(4, result);
 }

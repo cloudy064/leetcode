@@ -151,3 +151,6 @@ target_link_libraries(047.permutations-ii gtest)
 
 add_executable(048.rotate-image 048.rotate-image.cpp common.cpp)
 target_link_libraries(048.rotate-image gtest)
+
+add_executable(049.group-anagrams 049.group-anagrams.cpp common.cpp)
+target_link_libraries(049.group-anagrams gtest)

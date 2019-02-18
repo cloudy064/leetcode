@@ -6,7 +6,7 @@
 
 using namespace std;
 
-/// Solution for https://leetcode-cn.com/problems/permutations/
+/// Solution for https://leetcode-cn.com/problems/permutations-ii/
 
 
 class Solution {

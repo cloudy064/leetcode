@@ -139,3 +139,6 @@ target_link_libraries(041.first-missing-positive gtest)
 
 add_executable(043.multiply-strings 043.multiply-strings.cpp common.cpp)
 target_link_libraries(043.multiply-strings gtest)
+
+add_executable(045.jump-game-ii 045.jump-game-ii.cpp common.cpp)
+target_link_libraries(045.jump-game-ii gtest)

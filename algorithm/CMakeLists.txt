@@ -142,3 +142,12 @@ target_link_libraries(043.multiply-strings gtest)
 
 add_executable(045.jump-game-ii 045.jump-game-ii.cpp common.cpp)
 target_link_libraries(045.jump-game-ii gtest)
+
+add_executable(046.permutations 046.permutations.cpp common.cpp)
+target_link_libraries(046.permutations gtest)
+
+add_executable(047.permutations-ii 047.permutations-ii.cpp common.cpp)
+target_link_libraries(047.permutations-ii gtest)
+
+add_executable(048.rotate-image 048.rotate-image.cpp common.cpp)
+target_link_libraries(048.rotate-image gtest)

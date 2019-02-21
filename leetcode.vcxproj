@@ -80,6 +80,7 @@
     <ClCompile Include="algorithm\048.rotate-image.cpp" />
     <ClCompile Include="algorithm\053.maximum-subarray.cpp" />
     <ClCompile Include="algorithm\054.spiral-matrix.cpp" />
+    <ClCompile Include="algorithm\055.jump-game.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>

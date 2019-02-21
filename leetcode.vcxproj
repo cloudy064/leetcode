@@ -53,6 +53,7 @@
     <ClCompile Include="algorithm\015.3sum.cpp" />
     <ClCompile Include="algorithm\016.3sum_closest.cpp" />
     <ClCompile Include="algorithm\017.letter_combinations_of_a_phone_number.cpp" />
+    <ClCompile Include="algorithm\018.4sum.cpp" />
     <ClCompile Include="algorithm\019.remove_nth_node_from_end_of_list.cpp" />
     <ClCompile Include="algorithm\020.valid_parentheses.cpp" />
     <ClCompile Include="algorithm\021.merge_two_sorted_lists.cpp" />
@@ -75,9 +76,12 @@
     <ClCompile Include="algorithm\040.combination-sum-ii.cpp" />
     <ClCompile Include="algorithm\041.first-missing-positive.cpp" />
     <ClCompile Include="algorithm\043.multiply-strings.cpp" />
+    <ClCompile Include="algorithm\045.jump-game-ii.cpp" />
     <ClCompile Include="algorithm\046.permutations.cpp" />
     <ClCompile Include="algorithm\047.permutations-ii.cpp" />
     <ClCompile Include="algorithm\048.rotate-image.cpp" />
+    <ClCompile Include="algorithm\049.group-anagrams.cpp" />
+    <ClCompile Include="algorithm\050.powx-n.cpp" />
     <ClCompile Include="algorithm\053.maximum-subarray.cpp" />
     <ClCompile Include="algorithm\054.spiral-matrix.cpp" />
     <ClCompile Include="algorithm\055.jump-game.cpp" />

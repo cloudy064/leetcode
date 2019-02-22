@@ -85,6 +85,7 @@
     <ClCompile Include="algorithm\053.maximum-subarray.cpp" />
     <ClCompile Include="algorithm\054.spiral-matrix.cpp" />
     <ClCompile Include="algorithm\055.jump-game.cpp" />
+    <ClCompile Include="algorithm\056.merge-intervals.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>

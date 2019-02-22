@@ -165,6 +165,9 @@
     <ClCompile Include="algorithm\058.length-of-last-word.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="algorithm\059.spiral-matrix-ii.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\common.h">

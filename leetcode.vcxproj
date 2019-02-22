@@ -88,6 +88,7 @@
     <ClCompile Include="algorithm\056.merge-intervals.cpp" />
     <ClCompile Include="algorithm\057.insert-interval.cpp" />
     <ClCompile Include="algorithm\058.length-of-last-word.cpp" />
+    <ClCompile Include="algorithm\059.spiral-matrix-ii.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>

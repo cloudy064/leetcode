@@ -157,3 +157,6 @@ target_link_libraries(049.group-anagrams gtest)
 
 add_executable(050.powx-n 050.powx-n.cpp common.cpp)
 target_link_libraries(050.powx-n gtest)
+
+add_executable(061.rotate-list 061.rotate-list.cpp common.cpp)
+target_link_libraries(061.rotate-list gtest)

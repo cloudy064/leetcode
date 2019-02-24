@@ -166,3 +166,6 @@ target_link_libraries(062.unique-paths gtest)
 
 add_executable(063.unique-paths-ii 063.unique-paths-ii.cpp common.cpp)
 target_link_libraries(063.unique-paths-ii gtest)
+
+add_executable(064.minimum-path-sum 064.minimum-path-sum.cpp common.cpp)
+target_link_libraries(064.minimum-path-sum gtest)

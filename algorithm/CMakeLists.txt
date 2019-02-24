@@ -160,3 +160,6 @@ target_link_libraries(050.powx-n gtest)
 
 add_executable(061.rotate-list 061.rotate-list.cpp common.cpp)
 target_link_libraries(061.rotate-list gtest)
+
+add_executable(062.unique-paths 062.unique-paths.cpp common.cpp)
+target_link_libraries(062.unique-paths gtest)

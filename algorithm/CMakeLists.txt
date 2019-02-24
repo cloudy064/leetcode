@@ -163,3 +163,6 @@ target_link_libraries(061.rotate-list gtest)
 
 add_executable(062.unique-paths 062.unique-paths.cpp common.cpp)
 target_link_libraries(062.unique-paths gtest)
+
+add_executable(063.unique-paths-ii 063.unique-paths-ii.cpp common.cpp)
+target_link_libraries(063.unique-paths-ii gtest)

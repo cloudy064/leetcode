@@ -10,49 +10,53 @@ using namespace std;
 
 class Solution {
 public:
-	vector<vector<int>> pickElement(int size, int skip, int takes) {
-		if (skip + takes > size) return {};
+	inline int element(int index) {
+		return index + 1;
+	}
+
+	void pickElement(int size, int skip, int takes, vector<int>& temp, vector<vector<int>>& result) {
+		if (skip + takes > size) return;
 
 		if (skip + takes == size) {
-			vector<int> temp;
 			for (int i = skip; i < size; ++i) {
-				temp.push_back(i + 1);
+				temp.push_back(element(i));
 			}
 
-			return { temp };
+			result.emplace_back(temp);
+			for (int i = skip; i < size; ++i) {
+				temp.pop_back();
+			}
+
+			return;
 		}
 
 		if (takes == 1) {
-			vector<vector<int>> result;
 			for (int i = skip; i < size; ++i) {
-				result.push_back({ i + 1 });
+				temp.push_back(element(i));
+				result.emplace_back(temp);
+				temp.pop_back();
 			}
 
-			return result;
+			return;
 		}
 
-		vector<vector<int>> result;
-
-		int num = skip + 1;
-		auto temp = pickElement(size, skip + 1, takes - 1);
-		vector<int> item;
-		for (auto t : temp) {
-			item.clear();
-			item.push_back(num);
-			item.insert(item.end(), t.begin(), t.end());
-			result.emplace_back(item);
-		}
-
-		temp = pickElement(size, skip + 1, takes);
-		for (auto t : temp) result.emplace_back(t);
-
-		return result;
+		// take current element
+		int num = element(skip);
+		temp.push_back(num);
+		pickElement(size, skip + 1, takes - 1, temp, result);
+		
+		// don't take current element
+		temp.pop_back();
+		pickElement(size, skip + 1, takes, temp, result);
 	}
 
 	vector<vector<int>> combine(int n, int k) {
 		if (k > n || k == 0) return {};
 
-		return pickElement(n, 0, k);
+		vector<int> temp;
+		vector<vector<int>> result;
+		pickElement(n, 0, k, temp, result);
+		return result;
 	}
 };
 

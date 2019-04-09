@@ -3,97 +3,97 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001.two-sum", "001.two-sum\001.two-sum.vcxproj", "{9DB25A01-85DA-4DE0-B142-C00FE8D7CB85}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "001.two-sum", "leetcode.010-050\001.two-sum\001.two-sum.vcxproj", "{9DB25A01-85DA-4DE0-B142-C00FE8D7CB85}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002.add-two-numbers", "002.add-two-numbers\002.add-two-numbers.vcxproj", "{60581654-0FC0-41EB-AEA1-29723B1A444F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002.add-two-numbers", "leetcode.010-050\002.add-two-numbers\002.add-two-numbers.vcxproj", "{60581654-0FC0-41EB-AEA1-29723B1A444F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003.longest-substring-without-repeating-characters", "003.longest-substring-without-repeating-characters\003.longest-substring-without-repeating-characters.vcxproj", "{4AFCFC65-FCB3-4C9D-BE36-D9226505F32D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "003.longest-substring-without-repeating-characters", "leetcode.010-050\003.longest-substring-without-repeating-characters\003.longest-substring-without-repeating-characters.vcxproj", "{4AFCFC65-FCB3-4C9D-BE36-D9226505F32D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004.median-of-two-sorted-arrays", "004.median-of-two-sorted-arrays\004.median-of-two-sorted-arrays.vcxproj", "{8D8ECEF6-42C2-4EAE-9A0A-D1C648E9AA88}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "004.median-of-two-sorted-arrays", "leetcode.010-050\004.median-of-two-sorted-arrays\004.median-of-two-sorted-arrays.vcxproj", "{8D8ECEF6-42C2-4EAE-9A0A-D1C648E9AA88}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "005.longest-palindromic-substring", "005.longest-palindromic-substring\005.longest-palindromic-substring.vcxproj", "{877AEB05-44EC-4F6C-9441-96FEDA00E442}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "005.longest-palindromic-substring", "leetcode.010-050\005.longest-palindromic-substring\005.longest-palindromic-substring.vcxproj", "{877AEB05-44EC-4F6C-9441-96FEDA00E442}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "006.zigzag-conversion", "006.zigzag-conversion\006.zigzag-conversion.vcxproj", "{3373D3F1-1ED3-49B9-89B5-658CA8A9A324}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "006.zigzag-conversion", "leetcode.010-050\006.zigzag-conversion\006.zigzag-conversion.vcxproj", "{3373D3F1-1ED3-49B9-89B5-658CA8A9A324}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "007.reverse-integer", "007.reverse-integer\007.reverse-integer.vcxproj", "{A817F0B0-CA69-4A49-B551-5DF7639E7534}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "007.reverse-integer", "leetcode.010-050\007.reverse-integer\007.reverse-integer.vcxproj", "{A817F0B0-CA69-4A49-B551-5DF7639E7534}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "008.string-to-integer-atoi", "008.string-to-integer-atoi\008.string-to-integer-atoi.vcxproj", "{E8BC59BD-3B83-4366-8DD0-E2B4A4FECB36}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "008.string-to-integer-atoi", "leetcode.010-050\008.string-to-integer-atoi\008.string-to-integer-atoi.vcxproj", "{E8BC59BD-3B83-4366-8DD0-E2B4A4FECB36}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009.palindrome-number", "009.palindrome-number\009.palindrome-number.vcxproj", "{76A9A8A1-BECE-41B3-AA4D-BC71FC30E509}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "009.palindrome-number", "leetcode.010-050\009.palindrome-number\009.palindrome-number.vcxproj", "{76A9A8A1-BECE-41B3-AA4D-BC71FC30E509}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "010.regular-expression-matching", "010.regular-expression-matching\010.regular-expression-matching.vcxproj", "{8235547F-6472-4F35-AE46-C068E55E052E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "010.regular-expression-matching", "leetcode.010-050\010.regular-expression-matching\010.regular-expression-matching.vcxproj", "{8235547F-6472-4F35-AE46-C068E55E052E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011.container-with-most-water", "011.container-with-most-water\011.container-with-most-water.vcxproj", "{C0062856-D38B-4496-9D6C-30E5AC6394AD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011.container-with-most-water", "leetcode.010-050\011.container-with-most-water\011.container-with-most-water.vcxproj", "{C0062856-D38B-4496-9D6C-30E5AC6394AD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "012.integer-to-roman", "012.integer-to-roman\012.integer-to-roman.vcxproj", "{F17DEA86-A9DA-4A93-B78B-EBA989057854}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "012.integer-to-roman", "leetcode.010-050\012.integer-to-roman\012.integer-to-roman.vcxproj", "{F17DEA86-A9DA-4A93-B78B-EBA989057854}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "013.roman-to-integer", "013.roman-to-integer\013.roman-to-integer.vcxproj", "{D053DFDD-C2B7-46DB-B4BE-8F2B6EF445A8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "013.roman-to-integer", "leetcode.010-050\013.roman-to-integer\013.roman-to-integer.vcxproj", "{D053DFDD-C2B7-46DB-B4BE-8F2B6EF445A8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "014.longest-common-prefix", "014.longest-common-prefix\014.longest-common-prefix.vcxproj", "{D5BE1F35-3956-4618-82D1-12503E7852A2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "014.longest-common-prefix", "leetcode.010-050\014.longest-common-prefix\014.longest-common-prefix.vcxproj", "{D5BE1F35-3956-4618-82D1-12503E7852A2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "015.3sum", "015.3sum\015.3sum.vcxproj", "{5AD320E6-17CB-4577-B58B-34F6245B5242}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "015.3sum", "leetcode.010-050\015.3sum\015.3sum.vcxproj", "{5AD320E6-17CB-4577-B58B-34F6245B5242}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "016.3sum-closest", "016.3sum-closest\016.3sum-closest.vcxproj", "{A00BDBEC-17F2-4BC4-8FA3-3A972D090C85}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "016.3sum-closest", "leetcode.010-050\016.3sum-closest\016.3sum-closest.vcxproj", "{A00BDBEC-17F2-4BC4-8FA3-3A972D090C85}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "017.letter-combinations-of-a-phone-number", "017.letter-combinations-of-a-phone-number\017.letter-combinations-of-a-phone-number.vcxproj", "{2DBFA2DC-245A-4DD1-B176-6BD213B48E5E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "017.letter-combinations-of-a-phone-number", "leetcode.010-050\017.letter-combinations-of-a-phone-number\017.letter-combinations-of-a-phone-number.vcxproj", "{2DBFA2DC-245A-4DD1-B176-6BD213B48E5E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "018.4sum", "018.4sum\018.4sum.vcxproj", "{E049FDAE-9A5F-4BB1-B926-8C1444306013}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "018.4sum", "leetcode.010-050\018.4sum\018.4sum.vcxproj", "{E049FDAE-9A5F-4BB1-B926-8C1444306013}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "019.remove-nth-node-from-end-of-list", "019.remove-nth-node-from-end-of-list\019.remove-nth-node-from-end-of-list.vcxproj", "{69113336-F7F8-4B86-B04C-33597B8EA28B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "019.remove-nth-node-from-end-of-list", "leetcode.010-050\019.remove-nth-node-from-end-of-list\019.remove-nth-node-from-end-of-list.vcxproj", "{69113336-F7F8-4B86-B04C-33597B8EA28B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "020.valid-parentheses", "020.valid-parentheses\020.valid-parentheses.vcxproj", "{268D7576-568D-41BA-8693-1102B7DBBCCC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "020.valid-parentheses", "leetcode.010-050\020.valid-parentheses\020.valid-parentheses.vcxproj", "{268D7576-568D-41BA-8693-1102B7DBBCCC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "021.merge-two-sorted-lists", "021.merge-two-sorted-lists\021.merge-two-sorted-lists.vcxproj", "{0DC19B18-A210-46FF-A626-1C393343E116}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "021.merge-two-sorted-lists", "leetcode.010-050\021.merge-two-sorted-lists\021.merge-two-sorted-lists.vcxproj", "{0DC19B18-A210-46FF-A626-1C393343E116}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "022.generate-parentheses", "022.generate-parentheses\022.generate-parentheses.vcxproj", "{0B5AEE54-101D-451C-8223-2903D71013E2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "022.generate-parentheses", "leetcode.010-050\022.generate-parentheses\022.generate-parentheses.vcxproj", "{0B5AEE54-101D-451C-8223-2903D71013E2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "023.merge-k-sorted-lists", "023.merge-k-sorted-lists\023.merge-k-sorted-lists.vcxproj", "{BBFBDEC6-D701-4676-8866-EC8E9264C87F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "023.merge-k-sorted-lists", "leetcode.010-050\023.merge-k-sorted-lists\023.merge-k-sorted-lists.vcxproj", "{BBFBDEC6-D701-4676-8866-EC8E9264C87F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "024.swap-nodes-in-pairs", "024.swap-nodes-in-pairs\024.swap-nodes-in-pairs.vcxproj", "{D5881F8C-4FE7-44FD-AD9C-3B964FF288D0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "024.swap-nodes-in-pairs", "leetcode.010-050\024.swap-nodes-in-pairs\024.swap-nodes-in-pairs.vcxproj", "{D5881F8C-4FE7-44FD-AD9C-3B964FF288D0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "025.reverse-nodes-in-k-group", "025.reverse-nodes-in-k-group\025.reverse-nodes-in-k-group.vcxproj", "{86EE8238-4FC3-431B-8225-2CD8856FCC5E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "025.reverse-nodes-in-k-group", "leetcode.010-050\025.reverse-nodes-in-k-group\025.reverse-nodes-in-k-group.vcxproj", "{86EE8238-4FC3-431B-8225-2CD8856FCC5E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "026.remove-duplicates-from-sorted-array", "026.remove-duplicates-from-sorted-array\026.remove-duplicates-from-sorted-array.vcxproj", "{E0FEFA7A-B5C2-49AC-B13C-247A5F3DD7BB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "026.remove-duplicates-from-sorted-array", "leetcode.010-050\026.remove-duplicates-from-sorted-array\026.remove-duplicates-from-sorted-array.vcxproj", "{E0FEFA7A-B5C2-49AC-B13C-247A5F3DD7BB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027.remove-element", "027.remove-element\027.remove-element.vcxproj", "{E3C0E4D4-DFCB-4EF4-9F5B-41F0578E2CBF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "027.remove-element", "leetcode.010-050\027.remove-element\027.remove-element.vcxproj", "{E3C0E4D4-DFCB-4EF4-9F5B-41F0578E2CBF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "028.implement-strstr", "028.implement-strstr\028.implement-strstr.vcxproj", "{828C567D-4C16-4CF7-9DA3-0931B3877512}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "028.implement-strstr", "leetcode.010-050\028.implement-strstr\028.implement-strstr.vcxproj", "{828C567D-4C16-4CF7-9DA3-0931B3877512}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "029.divide-two-integers", "029.divide-two-integers\029.divide-two-integers.vcxproj", "{AD4EEF14-CE9B-4EBE-88FC-36324DB43C16}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "029.divide-two-integers", "leetcode.010-050\029.divide-two-integers\029.divide-two-integers.vcxproj", "{AD4EEF14-CE9B-4EBE-88FC-36324DB43C16}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "030.substring-with-concatenation-of-all-words", "030.substring-with-concatenation-of-all-words\030.substring-with-concatenation-of-all-words.vcxproj", "{FAE71CFD-7974-405D-9123-D50CB0668BE9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "030.substring-with-concatenation-of-all-words", "leetcode.010-050\030.substring-with-concatenation-of-all-words\030.substring-with-concatenation-of-all-words.vcxproj", "{FAE71CFD-7974-405D-9123-D50CB0668BE9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "032.longest-valid-parentheses", "032.longest-valid-parentheses\032.longest-valid-parentheses.vcxproj", "{FF51489E-F524-4B79-B39F-9F03802FEFC7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "032.longest-valid-parentheses", "leetcode.010-050\032.longest-valid-parentheses\032.longest-valid-parentheses.vcxproj", "{FF51489E-F524-4B79-B39F-9F03802FEFC7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "033.search-in-rotated-sorted-array", "033.search-in-rotated-sorted-array\033.search-in-rotated-sorted-array.vcxproj", "{F539F32E-F3C4-4A19-8575-C7C665FAB18D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "033.search-in-rotated-sorted-array", "leetcode.010-050\033.search-in-rotated-sorted-array\033.search-in-rotated-sorted-array.vcxproj", "{F539F32E-F3C4-4A19-8575-C7C665FAB18D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "034.find-first-and-last-position-of-element-in-sorted-array", "034.find-first-and-last-position-of-element-in-sorted-array\034.find-first-and-last-position-of-element-in-sorted-array.vcxproj", "{93E3AFFD-2DBF-4BE9-A8D5-56E335C15579}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "034.find-first-and-last-position-of-element-in-sorted-array", "leetcode.010-050\034.find-first-and-last-position-of-element-in-sorted-array\034.find-first-and-last-position-of-element-in-sorted-array.vcxproj", "{93E3AFFD-2DBF-4BE9-A8D5-56E335C15579}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "035.search-insert-position", "035.search-insert-position\035.search-insert-position.vcxproj", "{48FFAF61-49DF-4939-809E-65D32B7F4052}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "035.search-insert-position", "leetcode.010-050\035.search-insert-position\035.search-insert-position.vcxproj", "{48FFAF61-49DF-4939-809E-65D32B7F4052}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "036.valid-sudoku", "036.valid-sudoku\036.valid-sudoku.vcxproj", "{FB64EC53-153D-42C9-AD9F-7DCDC3D17677}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "036.valid-sudoku", "leetcode.010-050\036.valid-sudoku\036.valid-sudoku.vcxproj", "{FB64EC53-153D-42C9-AD9F-7DCDC3D17677}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "038.count-and-say", "038.count-and-say\038.count-and-say.vcxproj", "{0327F865-0FB5-4051-A0DB-2D63E9B88921}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "038.count-and-say", "leetcode.010-050\038.count-and-say\038.count-and-say.vcxproj", "{0327F865-0FB5-4051-A0DB-2D63E9B88921}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "039.combination-sum", "039.combination-sum\039.combination-sum.vcxproj", "{4F4AD2D8-7F70-4156-B37F-66FAB35F144B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "039.combination-sum", "leetcode.010-050\039.combination-sum\039.combination-sum.vcxproj", "{4F4AD2D8-7F70-4156-B37F-66FAB35F144B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "040.combination-sum-ii", "040.combination-sum-ii\040.combination-sum-ii.vcxproj", "{7B21D9E9-5EC6-4613-BE2F-CCB14621AFCF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "040.combination-sum-ii", "leetcode.010-050\040.combination-sum-ii\040.combination-sum-ii.vcxproj", "{7B21D9E9-5EC6-4613-BE2F-CCB14621AFCF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "041.first-missing-positive", "041.first-missing-positive\041.first-missing-positive.vcxproj", "{18015307-75C1-48BE-8220-BF81AF4DE24D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "041.first-missing-positive", "leetcode.010-050\041.first-missing-positive\041.first-missing-positive.vcxproj", "{18015307-75C1-48BE-8220-BF81AF4DE24D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "043.multiply-strings", "043.multiply-strings\043.multiply-strings.vcxproj", "{30F98F08-0AEC-4EA5-B793-AF2DFB051C87}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "043.multiply-strings", "leetcode.010-050\043.multiply-strings\043.multiply-strings.vcxproj", "{30F98F08-0AEC-4EA5-B793-AF2DFB051C87}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "045.jump-game-ii", "045.jump-game-ii\045.jump-game-ii.vcxproj", "{E4A04238-B15E-4E3E-AD8C-B3465FEB828D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "045.jump-game-ii", "leetcode.010-050\045.jump-game-ii\045.jump-game-ii.vcxproj", "{E4A04238-B15E-4E3E-AD8C-B3465FEB828D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "046.permutations", "046.permutations\046.permutations.vcxproj", "{8049E504-966D-4DD3-9013-70729706D59C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "046.permutations", "leetcode.010-050\046.permutations\046.permutations.vcxproj", "{8049E504-966D-4DD3-9013-70729706D59C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "047.permutations-ii", "047.permutations-ii\047.permutations-ii.vcxproj", "{7BC4E415-996C-4E5A-9B7D-186D570C2E66}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "047.permutations-ii", "leetcode.010-050\047.permutations-ii\047.permutations-ii.vcxproj", "{7BC4E415-996C-4E5A-9B7D-186D570C2E66}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "048.rotate-image", "048.rotate-image\048.rotate-image.vcxproj", "{38B05E80-0606-45A9-9362-E84FD68A944C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "048.rotate-image", "leetcode.010-050\048.rotate-image\048.rotate-image.vcxproj", "{38B05E80-0606-45A9-9362-E84FD68A944C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "049.group-anagrams", "049.group-anagrams\049.group-anagrams.vcxproj", "{8C33C26A-6ADF-440C-9415-31FEEDC043FF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "049.group-anagrams", "leetcode.010-050\049.group-anagrams\049.group-anagrams.vcxproj", "{8C33C26A-6ADF-440C-9415-31FEEDC043FF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "050.powx-n", "050.powx-n\050.powx-n.vcxproj", "{04D15947-2C17-48BF-8D5D-1B643466BB93}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "050.powx-n", "leetcode.010-050\050.powx-n\050.powx-n.vcxproj", "{04D15947-2C17-48BF-8D5D-1B643466BB93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

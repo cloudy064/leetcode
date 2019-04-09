@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "079.word-search", "leetcode
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "080.remove-duplicates-from-sorted-array-ii", "leetcode.051-100\080.remove-duplicates-from-sorted-array-ii\080.remove-duplicates-from-sorted-array-ii.vcxproj", "{7F8897D4-9954-4FD2-B27D-89EA3052C73C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "081.search-in-rotated-sorted-array-ii", "leetcode.051-100\081.search-in-rotated-sorted-array-ii\081.search-in-rotated-sorted-array-ii.vcxproj", "{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{7F8897D4-9954-4FD2-B27D-89EA3052C73C}.Release|x64.Build.0 = Release|x64
 		{7F8897D4-9954-4FD2-B27D-89EA3052C73C}.Release|x86.ActiveCfg = Release|Win32
 		{7F8897D4-9954-4FD2-B27D-89EA3052C73C}.Release|x86.Build.0 = Release|Win32
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Debug|x64.ActiveCfg = Debug|x64
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Debug|x64.Build.0 = Debug|x64
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Debug|x86.Build.0 = Debug|Win32
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Release|x64.ActiveCfg = Release|x64
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Release|x64.Build.0 = Release|x64
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Release|x86.ActiveCfg = Release|Win32
+		{2FD8061D-FEAE-454A-AA31-90CDBA5D94AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

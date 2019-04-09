@@ -1,5 +1,5 @@
 //
-// Created by ������ on 2019/2/19.
+// Created by cloudy064 on 2019/2/19.
 //
 
 #include "common.h"
@@ -36,11 +36,11 @@ public:
 
 class Test050Solution : public ::testing::Test {
 public:
-	Solution sln;
+    Solution sln;
 };
 
 TEST_F(Test050Solution, t1) {
-	EXPECT_EQ(sln.myPow(2,-2), 0.25);
+    EXPECT_EQ(sln.myPow(2,-2), 0.25);
     EXPECT_EQ(sln.myPow(2,2), 4);
 }
 

@@ -9,88 +9,67 @@ using namespace std;
 
 /// Solution for https://leetcode-cn.com/problems/sudoku-solver/
 
-/*
-hints:
-Recursion
-*/
-
 class Solution {
 public:
 	unordered_set<char> occurs;
 	const string chars = "123456789";
 
-	bool isValidRow(vector<vector<char>>& board, int row) {
-		occurs.clear();
+	vector<vector<int>> rowMissing = {
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1}
+	};
 
-		for (auto c : board[row]) {
-			if (c == '.') continue;
+	vector<vector<int>> colMissing = {
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1}
+	};
 
-			auto it = occurs.find(c);
-			if (it != occurs.end()) return false;
-
-			occurs.insert(c);
-		}
-
-		return true;
-	}
-
-	bool isValidColumn(vector<vector<char>> & board, int col) {
-		occurs.clear();
-
-		for (auto vec : board) {
-			auto c = vec[col];
-			if (c == '.') continue;
-
-			auto it = occurs.find(c);
-			if (it != occurs.end()) return false;
-
-			occurs.insert(c);
-		}
-
-		return true;
-	}
-
-	bool isValidSquare(vector<vector<char>> & board, int index) {
-		occurs.clear();
-
-		int offsetI = index / 3 * 3;
-		int offsetJ = (index % 3) * 3;
-		for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-				auto c = board[i + offsetI][j + offsetJ];
-				if (c == '.') continue;
-
-				auto it = occurs.find(c);
-				if (it != occurs.end()) return false;
-
-				occurs.insert(c);
-			}
-		}
-
-		return true;
-	}
-
-	bool isValidSudoku(vector<vector<char>> & board) {
-		for (int i = 0; i < 9; i++) {
-			if (!isValidRow(board, i)) return false;
-		}
-
-		for (int i = 0; i < 9; i++) {
-			if (!isValidColumn(board, i)) return false;
-		}
-
-		for (int i = 0; i < 9; i++) {
-			if (!isValidSquare(board, i)) return false;
-		}
-
-		return true;
-	}
+	vector<vector<int>> sqrMissing = {
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1, 1, 1, 1, 1}
+	};
 
 	inline int square(int i, int j) {
 		return i / 3 * 3 + j / 3;
 	}
 
-	bool solveSudokuImpl(vector<vector<char>>& board) {
+	void scanMissing(vector<vector<char>> & board) {
+		// Mark the values taken
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 9; j++) {
+				if (board[i][j] != '.') {
+					int val = board[i][j] - '1';
+
+					rowMissing[i][val] = 0;
+					colMissing[j][val] = 0;
+					sqrMissing[square(i, j)][val] = 0;
+				}
+			}
+		}
+	}
+
+	bool solveSudokuImpl(vector<vector<char>> & board) {
 		for (int i = 0; i < 9; i++) {
 			for (int j = 0; j < 9; j++) {
 				if (board[i][j] != '.') continue;
@@ -98,28 +77,38 @@ public:
 				for (auto c : chars) {
 					int s = square(i, j);
 
+					int val = c - '1';
+
+					// Check if val has been set in row/column/square
+					if (!rowMissing[i][val]) continue;
+					if (!colMissing[j][val]) continue;
+					if (!sqrMissing[s][val]) continue;
+
+					// Take this character and mark val has been taken in row/column/square
 					board[i][j] = c;
+					rowMissing[i][val] = 0;
+					colMissing[j][val] = 0;
+					sqrMissing[s][val] = 0;
 
-					// Check if the soduku is valid
-					if (!isValidColumn(board, j)) continue;
-					if (!isValidRow(board, i)) continue;
-					if (!isValidSquare(board, s)) continue;
+					if (solveSudokuImpl(board)) return true;
 
-					// If I can solve this soduku with setting board[i][j] to c, it is a correct answer.
-					if (solveSudokuImpl(board)) return true; 
+				fail:
+					// Store row/column/square
+					rowMissing[i][val] = 1;
+					colMissing[j][val] = 1;
+					sqrMissing[s][val] = 1;
 				}
-				
-				// In this case, we cannot solve this soduku with all characters.
+
 				board[i][j] = '.';
 				return false;
 			}
 		}
 
-		// The program reaches here when i >= 9 and j >= 9
 		return true;
 	}
 
-	void solveSudoku(vector<vector<char>>& board) {
+	void solveSudoku(vector<vector<char>> & board) {
+		scanMissing(board);
 		solveSudokuImpl(board);
 	}
 };

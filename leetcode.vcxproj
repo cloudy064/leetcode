@@ -88,6 +88,14 @@
     <ClCompile Include="algorithm\059.spiral-matrix-ii.cpp" />
     <ClCompile Include="algorithm\069.sqrtx.cpp" />
     <ClCompile Include="algorithm\070.climbing-stairs.cpp" />
+    <ClCompile Include="algorithm\071.simplify-path.cpp" />
+    <ClCompile Include="algorithm\073.set-matrix-zeroes.cpp" />
+    <ClCompile Include="algorithm\074.search-a-2d-matrix.cpp" />
+    <ClCompile Include="algorithm\075.sort-colors.cpp" />
+    <ClCompile Include="algorithm\077.combinations.cpp" />
+    <ClCompile Include="algorithm\078.subsets.cpp" />
+    <ClCompile Include="algorithm\079.word-search.cpp" />
+    <ClCompile Include="algorithm\080.remove-duplicates-from-sorted-array-ii.cpp" />
     <ClCompile Include="algorithm\common.cpp" />
   </ItemGroup>
   <ItemGroup>

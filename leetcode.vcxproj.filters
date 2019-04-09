@@ -174,6 +174,30 @@
     <ClCompile Include="algorithm\070.climbing-stairs.cpp">
       <Filter>algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="algorithm\071.simplify-path.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\073.set-matrix-zeroes.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\074.search-a-2d-matrix.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\075.sort-colors.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\077.combinations.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\078.subsets.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\079.word-search.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\080.remove-duplicates-from-sorted-array-ii.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="algorithm\common.h">

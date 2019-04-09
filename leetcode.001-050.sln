@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "037.sudoku-solver", "leetco
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "042.trapping-rain-water", "leetcode.001-050\042.trapping-rain-water\042.trapping-rain-water.vcxproj", "{03C08D92-4A99-45A4-9C30-50EDD7D20A8D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "031.next-permutation", "leetcode.001-050\031.next-permutation\031.next-permutation.vcxproj", "{0B06EA62-0F8A-4779-B13E-B27401F44950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -491,6 +493,14 @@ Global
 		{03C08D92-4A99-45A4-9C30-50EDD7D20A8D}.Release|x64.Build.0 = Release|x64
 		{03C08D92-4A99-45A4-9C30-50EDD7D20A8D}.Release|x86.ActiveCfg = Release|Win32
 		{03C08D92-4A99-45A4-9C30-50EDD7D20A8D}.Release|x86.Build.0 = Release|Win32
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Debug|x64.ActiveCfg = Debug|x64
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Debug|x64.Build.0 = Debug|x64
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Debug|x86.ActiveCfg = Debug|Win32
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Debug|x86.Build.0 = Debug|Win32
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Release|x64.ActiveCfg = Release|x64
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Release|x64.Build.0 = Release|x64
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Release|x86.ActiveCfg = Release|Win32
+		{0B06EA62-0F8A-4779-B13E-B27401F44950}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

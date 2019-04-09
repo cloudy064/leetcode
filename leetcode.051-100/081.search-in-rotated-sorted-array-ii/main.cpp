@@ -6,7 +6,7 @@
 
 using namespace std;
 
-/// Solution for https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/
+/// Solution for https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/
 
 /*
 hints:

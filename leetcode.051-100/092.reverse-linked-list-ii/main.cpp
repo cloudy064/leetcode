@@ -39,7 +39,6 @@ public:
             ++i;
         }
         
-        ListNode* listNext = next;
         listHead->next = next;
         if (listPrev == nullptr) {// m == 0
             head = curr;
